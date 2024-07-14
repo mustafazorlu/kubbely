@@ -3,7 +3,7 @@ import Button from "../../utils/Button";
 
 const Main = () => {
     return (
-        <main className="contain pt-16">
+        <main className="contain pt-16 pb-24 flex">
             <div className="main-content w-1/2">
                 <h1 className="font-medium text-7xl mb-10">
                     Collaborate with team, & achieve best work.
@@ -15,6 +15,9 @@ const Main = () => {
                     vitae quibusdam eius sint omnis? Molestias, quaerat!
                 </p>
                 <Button />
+            </div>
+            <div className="w-1/2 flex justify-center items-center">
+                <img className="w-[75%]" src="/images/team-coding.webp" alt="" />
             </div>
         </main>
     );

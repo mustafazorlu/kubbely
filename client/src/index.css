@@ -10,10 +10,15 @@
 
 body {
   font-family: "Outfit", sans-serif;
+  background-color: #cafaf8;
 }
 
 .contain {
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.production-items {
+  grid-template-columns: repeat(auto-fill, minmax(1fr, 300px));
 }
