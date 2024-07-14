@@ -28,7 +28,7 @@ const Production = () => {
                 <div className="production-item border-2 flex flex-col gap-4 border-[#333] p-6 hover:bg-[#c8e3fc] transition cursor-pointer hover:-translate-y-8 hover:border-[#c8e3fc]">
                     <div className="production-icon"></div>
                     <div className="icon">
-                        <MdOutlineDesignServices fontSize={32} />
+                        <IoMdCode fontSize={32} />
                     </div>
                     <h4 className="font-semibold text-xl">UI/UX Design</h4>
                     <p className="font-light mb-6">
@@ -43,7 +43,7 @@ const Production = () => {
                 <div className="production-item border-2 flex flex-col gap-4 border-[#333] p-6 hover:bg-[#c8e3fc] transition cursor-pointer hover:-translate-y-8 hover:border-[#c8e3fc]">
                     <div className="production-icon"></div>
                     <div className="icon">
-                        <MdOutlineDesignServices fontSize={32} />
+                        <FaMobileScreenButton fontSize={32} />
                     </div>
                     <h4 className="font-semibold text-xl">UI/UX Design</h4>
                     <p className="font-light mb-6">
@@ -58,7 +58,7 @@ const Production = () => {
                 <div className="production-item border-2 flex flex-col gap-4 border-[#333] p-6 hover:bg-[#c8e3fc] transition cursor-pointer hover:-translate-y-8 hover:border-[#c8e3fc]">
                     <div className="production-icon"></div>
                     <div className="icon">
-                        <MdOutlineDesignServices fontSize={32} />
+                        <MdOutlineSupportAgent fontSize={32} />
                     </div>
                     <h4 className="font-semibold text-xl">UI/UX Design</h4>
                     <p className="font-light mb-6">
