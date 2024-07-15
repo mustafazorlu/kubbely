@@ -8,7 +8,7 @@ import { MdOutlineSupportAgent } from "react-icons/md";
 const Production = () => {
     return (
         <section className="production contain pb-36">
-            <h3 className="text-xl mb-16 font-medium">Our Included Services</h3>
+            <h3 className="text-3xl mb-16 font-medium">Our Included Services</h3>
             <div className="production-items grid grid-flow-col gap-10 ">
                 <div className="production-item border-2 flex flex-col gap-4 border-[#333] p-6 hover:bg-[#c8e3fc] transition cursor-pointer hover:-translate-y-8 hover:border-[#c8e3fc]">
                     <div className="production-icon"></div>
