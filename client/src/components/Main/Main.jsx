@@ -15,7 +15,7 @@ const Main = () => {
                     voluptatem repellat nobis nisi, alias aut, error provident
                     vitae quibusdam eius sint omnis? Molestias, quaerat!
                 </p>
-                <Button />
+                <Button text={"Get Started"}/>
             </div>
             <div className="lg:w-1/2 w-full mb-12 lg:mb-0 flex justify-center items-center order-1 lg:order-2">
                 <img
