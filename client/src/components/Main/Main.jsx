@@ -3,10 +3,11 @@ import Button from "../../utils/Button";
 
 const Main = () => {
     return (
-        <main className="contain pt-16 pb-24 flex">
-            <div className="main-content w-1/2">
-                <h1 className="font-medium text-7xl mb-10">
-                    Collaborate with team, & achieve best work.
+        <main className="contain pt-16 pb-24 flex flex-col lg:flex-row">
+            <div className="main-content w-full lg:w-1/2 order-2 lg:order-1">
+                <h1 className="font-medium text-7xl mb-10 leading-tight">
+                    Collaborate with team, & achieve{" "}
+                    <span className="bg-[#38A1FF] text-white px-2">best work.</span>
                 </h1>
                 <p className="w-3/4 mb-10">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -16,8 +17,12 @@ const Main = () => {
                 </p>
                 <Button />
             </div>
-            <div className="w-1/2 flex justify-center items-center">
-                <img className="w-[75%]" src="/images/team-coding.webp" alt="" />
+            <div className="lg:w-1/2 w-full mb-12 lg:mb-0 flex justify-center items-center order-1 lg:order-2">
+                <img
+                    className="w-[75%]"
+                    src="/images/team-coding.webp"
+                    alt=""
+                />
             </div>
         </main>
     );

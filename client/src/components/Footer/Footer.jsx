@@ -4,20 +4,17 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
 
-
-
 const Footer = () => {
     return (
         <footer className="flex flex-col gap-16 bg-[#c8e3fc] py-8 pt-16 pb-0">
-            <div className="flex justify-between contain">
+            <div className="flex justify-between contain flex-col lg:flex-row gap-12 lg:gap-0">
                 <div className="logo flex flex-col">
-                    <span className="text-2xl mb-8 font-semibold flex items-center justify-center">
+                    <span className="text-2xl mb-8 font-semibold flex items-center">
                         <img src="/images/tower.png" alt="" className="w-10" />
                         Kubbely.
                     </span>
-                    
                 </div>
-                <div className="">
+                <div className="px-4 lg:px-0">
                     <ul className="flex flex-col gap-4">
                         <li>
                             <Link className="font-light hover:font-medium transition">
@@ -26,47 +23,47 @@ const Footer = () => {
                         </li>
                         <li>
                             <Link className="font-light hover:font-medium">
-                                Home
+                                Resources
                             </Link>
                         </li>
                         <li>
                             <Link className="font-light hover:font-medium">
-                                Home
+                                Enterprise
                             </Link>
                         </li>
                         <li>
                             <Link className="font-light hover:font-medium">
-                                Home
+                                Contact
                             </Link>
                         </li>
                     </ul>
                 </div>
-                <div className="">
+                <div className="px-4 lg:px-0">
                     <ul className="flex flex-col gap-4">
                         <li>
                             <Link className="font-light hover:font-medium">
-                                Home
+                                UI / UX
                             </Link>
                         </li>
                         <li>
                             <Link className="font-light hover:font-medium">
-                                Home
+                                Web Design
                             </Link>
                         </li>
                         <li>
                             <Link className="font-light hover:font-medium">
-                                Home
+                                App Development
                             </Link>
                         </li>
                         <li>
                             <Link className="font-light hover:font-medium">
-                                Home
+                                SEO
                             </Link>
                         </li>
                     </ul>
                 </div>
                 <div className="social">
-                    <div className="mb-8">
+                    <div className="mb-8 px-4 lg:px-0">
                         <h6 className="mb-4">Contact Us</h6>
                         <input
                             type="text"
@@ -74,7 +71,7 @@ const Footer = () => {
                             placeholder="Email address.."
                         />
                     </div>
-                    <div className="flex gap-4 justify-end">
+                    <div className="flex gap-4 lg:justify-end px-4 lg:px-0">
                         <div className="social-media-icon self-start p-4 bg-black text-white hover:-translate-y-2 transition cursor-pointer">
                             <FaInstagram fontSize={20} />
                         </div>
@@ -87,12 +84,12 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="privacy contain flex justify-between py-8 text-sm text-[#666] border-t-2 border-[#d4e9fca4]">
-                <span>
+            <div className="privacy contain flex flex-col lg:flex-row gap-8 justify-between py-8  text-sm text-[#666] border-t-2 border-[#d4e9fca4]">
+                <span className="px-4 lg:px-0">
                     Created by Kubbely &nbsp; - &nbsp; © 2024 All Rights
                     Reserved
                 </span>
-                <div className="flex gap-16">
+                <div className="flex lg:gap-16 gap-8 px-4 lg:px-0">
                     <span>
                         <Link className="hover:text-black transition">
                             Privacy
